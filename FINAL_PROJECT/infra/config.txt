@@ -27,3 +27,5 @@ CW_METRIC_NAME=StepsCompleted
 # Auto Teardown
 AUTO_TEARDOWN_HOURS=2
 
+SNS_TOPIC_NAME=ResumeParserAlerts
+ALARM_EMAIL=abiha2338@gmail.com

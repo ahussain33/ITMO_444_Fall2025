@@ -6,15 +6,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
     <h1>Resume Parser</h1>
+
     <form id="uploadForm">
-        <input type="file" id="resumeFile" name="file" accept=".pdf,.docx" required>
-        <button type="submit">Upload Resume</button>
+        <label for="resumeFile">Upload Resume (PDF or DOCX):</label>
+        <input type="file" id="resumeFile" name="file" accept=".pdf,.doc,.docx" required>
+        <button type="submit">Upload</button>
     </form>
     <pre id="response"></pre>
-</div>
-<script src="script.js"></script>
+    <script src="scrit.js"></script>
 </body>
 </html>
-
